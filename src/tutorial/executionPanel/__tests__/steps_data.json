@@ -1,0 +1,1624 @@
+[
+  {
+    "tutoID": 12,
+    "stepID": 212,
+    "step": 0,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/d2d4e986-591b-4957-817f-f2f671c8f63a",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 234,
+        "region": {
+          "minimumX": 26,
+          "maximumX": 216,
+          "minimumY": 153,
+          "maximumY": 180,
+          "regionID": 223
+        },
+        "type": 1,
+        "step": 212,
+        "nextStep": 213,
+        "originStep": 212,
+        "nextStepNumber": 1
+      }
+    ],
+    "score": 15,
+    "text": {
+      "propertyID": 330,
+      "value": "Now you have to connect to Microsoft Excel"
+    },
+    "animation": {
+      "propertyID": 328,
+      "value": "business.svg|||svg-animation-right business-left "
+    },
+    "assistance": {
+      "propertyID": 329,
+      "value": "Choose connect to Microsoft Excel"
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 213,
+    "step": 1,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/e6a745af-d02b-4f11-92ab-f3002c94328d",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 235,
+        "region": {
+          "minimumX": 30,
+          "maximumX": 212,
+          "minimumY": 153,
+          "maximumY": 180,
+          "regionID": 224
+        },
+        "type": 0,
+        "step": 213,
+        "nextStep": 214,
+        "originStep": 212,
+        "nextStepNumber": 2
+      }
+    ],
+    "score": 15,
+    "text": {
+      "propertyID": 332,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 331,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 214,
+    "step": 2,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/30c19406-a30e-4964-878c-690667dd9d33",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 236,
+        "region": {
+          "minimumX": 519,
+          "maximumX": 1012,
+          "minimumY": 227,
+          "maximumY": 252,
+          "regionID": 225
+        },
+        "type": 1,
+        "step": 214,
+        "nextStep": 215,
+        "originStep": 213,
+        "nextStepNumber": 3
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 335,
+      "value": "Now you have to select the xlsx file and open it"
+    },
+    "animation": {
+      "propertyID": 333,
+      "value": "motivate.svg|||svg-animation-right motivate-left "
+    },
+    "assistance": {
+      "propertyID": 334,
+      "value": "Select the xlsx file and then open it"
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 215,
+    "step": 3,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/71a84ec2-6cfa-4ce4-997f-387260407f39",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 237,
+        "region": {
+          "minimumX": 521,
+          "maximumX": 1015,
+          "minimumY": 230,
+          "maximumY": 250,
+          "regionID": 226
+        },
+        "type": 0,
+        "step": 215,
+        "nextStep": 216,
+        "originStep": 214,
+        "nextStepNumber": 4
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 337,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 336,
+      "value": ""
+    },
+    "timeout": 15
+  },
+  {
+    "tutoID": 12,
+    "stepID": 216,
+    "step": 4,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/324dfa31-4037-4f7e-a5f0-183fb73510f2",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 238,
+        "region": {
+          "minimumX": 813,
+          "maximumX": 896,
+          "minimumY": 538,
+          "maximumY": 558,
+          "regionID": 227
+        },
+        "type": 1,
+        "step": 216,
+        "nextStep": 217,
+        "originStep": 215,
+        "nextStepNumber": 5
+      }
+    ],
+    "score": 20,
+    "text": {
+      "propertyID": 345,
+      "value": "Open the file"
+    },
+    "animation": {
+      "propertyID": 343,
+      "value": "search.svg|||svg-animation-right search-left "
+    },
+    "assistance": {
+      "propertyID": 344,
+      "value": "Open the file"
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 217,
+    "step": 5,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/d18d5218-6c81-4eae-8ed7-3df98dbd85a6",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 239,
+        "region": {
+          "minimumX": 812,
+          "maximumX": 897,
+          "minimumY": 536,
+          "maximumY": 559,
+          "regionID": 228
+        },
+        "type": 0,
+        "step": 217,
+        "nextStep": 218,
+        "originStep": 216,
+        "nextStepNumber": 6
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 347,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 346,
+      "value": ""
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 218,
+    "step": 6,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/d27aaa01-bbd0-4696-b80f-2292cda43a5d",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 240,
+        "region": {
+          "minimumX": 20,
+          "maximumX": 240,
+          "minimumY": 288,
+          "maximumY": 312,
+          "regionID": 229
+        },
+        "type": 1,
+        "step": 218,
+        "nextStep": 219,
+        "originStep": 217,
+        "nextStepNumber": 7
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 350,
+      "value": "Now we are on the data source space, from here we can choose which sheets or tables we'd like to use. Drag orders to the canvas."
+    },
+    "animation": {
+      "propertyID": 348,
+      "value": "binoculars.svg|||svg-animation-line binoculars- "
+    },
+    "assistance": {
+      "propertyID": 349,
+      "value": "Drag orders to the canvas (Drag sheets here)"
+    },
+    "timeout": 40
+  },
+  {
+    "tutoID": 12,
+    "stepID": 219,
+    "step": 7,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/05026933-b244-4e15-88b0-859962488171",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 241,
+        "region": {
+          "minimumX": 20,
+          "maximumX": 242,
+          "minimumY": 286,
+          "maximumY": 310,
+          "regionID": 230
+        },
+        "type": 2,
+        "step": 219,
+        "nextStep": 220,
+        "originStep": 218,
+        "nextStepNumber": 9
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 220,
+    "step": 9,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/cd63110a-0331-43ca-8a8e-9ab9abb76d7e",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 242,
+        "region": {
+          "minimumX": 269,
+          "maximumX": 1360,
+          "minimumY": 108,
+          "maximumY": 278,
+          "regionID": 231
+        },
+        "type": 1,
+        "step": 220,
+        "nextStep": 221,
+        "originStep": 219,
+        "nextStepNumber": 10
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 221,
+    "step": 10,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/58d9d995-58db-492a-bc98-404f76043fb3",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 243,
+        "region": {
+          "minimumX": 266,
+          "maximumX": 1359,
+          "minimumY": 106,
+          "maximumY": 278,
+          "regionID": 232
+        },
+        "type": 3,
+        "step": 221,
+        "nextStep": 222,
+        "originStep": 220,
+        "nextStepNumber": 11
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 352,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 351,
+      "value": ""
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 222,
+    "step": 11,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/a6bb6027-63d4-4c86-8e90-79df457dfa40",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 244,
+        "region": {
+          "minimumX": 21,
+          "maximumX": 241,
+          "minimumY": 310,
+          "maximumY": 333,
+          "regionID": 233
+        },
+        "type": 1,
+        "step": 222,
+        "nextStep": 223,
+        "originStep": 221,
+        "nextStepNumber": 12
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 355,
+      "value": "If we want to bring out more information from the same data source, we simply drag the other table onto the canvas. Now drag People to the canvas."
+    },
+    "animation": {
+      "propertyID": 353,
+      "value": "target.svg|||svg-animation-line target- "
+    },
+    "assistance": {
+      "propertyID": 354,
+      "value": "Drag People to the canvas."
+    },
+    "timeout": 40
+  },
+  {
+    "tutoID": 12,
+    "stepID": 223,
+    "step": 12,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/0cedc062-2e36-4d9b-905c-9cf3227fbedb",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 245,
+        "region": {
+          "minimumX": 20,
+          "maximumX": 242,
+          "minimumY": 310,
+          "maximumY": 333,
+          "regionID": 234
+        },
+        "type": 2,
+        "step": 223,
+        "nextStep": 224,
+        "originStep": 222,
+        "nextStepNumber": 13
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 224,
+    "step": 13,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/7a1663d3-f623-4777-8228-b35f35cb0766",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 246,
+        "region": {
+          "minimumX": 268,
+          "maximumX": 1360,
+          "minimumY": 108,
+          "maximumY": 280,
+          "regionID": 235
+        },
+        "type": 1,
+        "step": 224,
+        "nextStep": 225,
+        "originStep": 223,
+        "nextStepNumber": 14
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 225,
+    "step": 14,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/3e758a46-0f44-45a0-8814-fe172414c0a6",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 247,
+        "region": {
+          "minimumX": 268,
+          "maximumX": 1360,
+          "minimumY": 106,
+          "maximumY": 280,
+          "regionID": 236
+        },
+        "type": 3,
+        "step": 225,
+        "nextStep": 226,
+        "originStep": 224,
+        "nextStepNumber": 15
+      }
+    ],
+    "score": 20,
+    "text": {
+      "propertyID": 367,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 361,
+      "value": ".svg||| - "
+    },
+    "assistance": {
+      "propertyID": 366,
+      "value": ""
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 226,
+    "step": 15,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/2be9989c-a9d7-4c02-badf-ebab83bbcd86",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 248,
+        "region": {
+          "minimumX": 597,
+          "maximumX": 812,
+          "minimumY": 134,
+          "maximumY": 154,
+          "regionID": 237
+        },
+        "type": 1,
+        "step": 226,
+        "nextStep": 227,
+        "originStep": 225,
+        "nextStepNumber": 16
+      }
+    ],
+    "score": 30,
+    "text": {
+      "propertyID": 370,
+      "value": "Now you have to remove People from the canvas."
+    },
+    "animation": {
+      "propertyID": 368,
+      "value": "line.svg|||svg-animation-right line- pink"
+    },
+    "assistance": {
+      "propertyID": 369,
+      "value": "Select People in the canvas and remove it."
+    },
+    "timeout": 30
+  },
+  {
+    "tutoID": 12,
+    "stepID": 227,
+    "step": 16,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/95b32692-c2ad-41c8-a7fc-a7fe3258a947",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 249,
+        "region": {
+          "minimumX": 596,
+          "maximumX": 812,
+          "minimumY": 136,
+          "maximumY": 156,
+          "regionID": 238
+        },
+        "type": 0,
+        "step": 227,
+        "nextStep": 228,
+        "originStep": 226,
+        "nextStepNumber": 17
+      }
+    ],
+    "score": 20,
+    "text": {
+      "propertyID": 372,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 371,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 228,
+    "step": 17,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/10d4e571-455e-4b17-88b7-72b2796a41a9",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 250,
+        "region": {
+          "minimumX": 788,
+          "maximumX": 1029,
+          "minimumY": 264,
+          "maximumY": 286,
+          "regionID": 239
+        },
+        "type": 1,
+        "step": 228,
+        "nextStep": 229,
+        "originStep": 227,
+        "nextStepNumber": 18
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 375,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 373,
+      "value": "double-arrow.svg|||svg-animation-top double-arrow-down "
+    },
+    "assistance": {
+      "propertyID": 374,
+      "value": "Click in remove."
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 229,
+    "step": 18,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/3e04e830-c7ea-4fe8-8c99-efd8806dd4ef",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 251,
+        "region": {
+          "minimumX": 789,
+          "maximumX": 1027,
+          "minimumY": 261,
+          "maximumY": 285,
+          "regionID": 240
+        },
+        "type": 0,
+        "step": 229,
+        "nextStep": 230,
+        "originStep": 228,
+        "nextStepNumber": 19
+      }
+    ],
+    "score": 20,
+    "text": {
+      "propertyID": 377,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 376,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 230,
+    "step": 19,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/9fe1c720-041f-4682-aba7-d43cc0472a8f",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 252,
+        "region": {
+          "minimumX": 216,
+          "maximumX": 245,
+          "minimumY": 82,
+          "maximumY": 102,
+          "regionID": 241
+        },
+        "type": 1,
+        "step": 230,
+        "nextStep": 231,
+        "originStep": 229,
+        "nextStepNumber": 20
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 383,
+      "value": "If we have related data in another data source, we can create an integrated data source by adding a connection, by clicking Add"
+    },
+    "animation": {
+      "propertyID": 381,
+      "value": "target.svg|||svg-animation-search target- "
+    },
+    "assistance": {
+      "propertyID": 382,
+      "value": "Click in the button Add"
+    },
+    "timeout": 30
+  },
+  {
+    "tutoID": 12,
+    "stepID": 231,
+    "step": 20,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/e025b622-98a7-40bb-9226-3bdb7922989e",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 253,
+        "region": {
+          "minimumX": 217,
+          "maximumX": 242,
+          "minimumY": 85,
+          "maximumY": 101,
+          "regionID": 242
+        },
+        "type": 0,
+        "step": 231,
+        "nextStep": 232,
+        "originStep": 230,
+        "nextStepNumber": 21
+      }
+    ],
+    "score": 20,
+    "text": {
+      "propertyID": 385,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 384,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 232,
+    "step": 21,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/239172b5-604f-4736-ad4f-fc5f5c376f00",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 254,
+        "region": {
+          "minimumX": 426,
+          "maximumX": 620,
+          "minimumY": 209,
+          "maximumY": 238,
+          "regionID": 243
+        },
+        "type": 1,
+        "step": 232,
+        "nextStep": 233,
+        "originStep": 231,
+        "nextStepNumber": 22
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 388,
+      "value": "Here we'll bring in a Text file of our returned orders, stored as a csv file."
+    },
+    "animation": {
+      "propertyID": 386,
+      "value": "normal-arrow.svg|||svg-animation-down normal-arrow-top "
+    },
+    "assistance": {
+      "propertyID": 387,
+      "value": "Click in Text file"
+    },
+    "timeout": 25
+  },
+  {
+    "tutoID": 12,
+    "stepID": 233,
+    "step": 22,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/5d9d9320-c4c6-4f46-8eba-6a55395626be",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 255,
+        "region": {
+          "minimumX": 433,
+          "maximumX": 617,
+          "minimumY": 210,
+          "maximumY": 237,
+          "regionID": 244
+        },
+        "type": 0,
+        "step": 233,
+        "nextStep": 234,
+        "originStep": 232,
+        "nextStepNumber": 23
+      }
+    ],
+    "score": 25,
+    "text": {
+      "propertyID": 390,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 389,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 234,
+    "step": 23,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/fc9ce892-ad41-4413-b5f5-9148a1974ef8",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 256,
+        "region": {
+          "minimumX": 517,
+          "maximumX": 1012,
+          "minimumY": 226,
+          "maximumY": 253,
+          "regionID": 245
+        },
+        "type": 1,
+        "step": 234,
+        "nextStep": 235,
+        "originStep": 233,
+        "nextStepNumber": 24
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 393,
+      "value": "Select the csv file and open it."
+    },
+    "animation": {
+      "propertyID": 391,
+      "value": "business.svg|||svg-animation-left business-right black"
+    },
+    "assistance": {
+      "propertyID": 392,
+      "value": "Click in the csv file and then open it."
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 235,
+    "step": 24,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/7183aee3-9f49-4672-b2d1-19f4f9004aa6",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 257,
+        "region": {
+          "minimumX": 523,
+          "maximumX": 1014,
+          "minimumY": 228,
+          "maximumY": 249,
+          "regionID": 246
+        },
+        "type": 0,
+        "step": 235,
+        "nextStep": 236,
+        "originStep": 234,
+        "nextStepNumber": 25
+      }
+    ],
+    "score": 20,
+    "text": {
+      "propertyID": 395,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 394,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 236,
+    "step": 25,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/2c67589f-2a76-4e34-85b0-b8a95aa7c8fe",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 258,
+        "region": {
+          "minimumX": 814,
+          "maximumX": 896,
+          "minimumY": 537,
+          "maximumY": 558,
+          "regionID": 247
+        },
+        "type": 1,
+        "step": 236,
+        "nextStep": 237,
+        "originStep": 235,
+        "nextStepNumber": 26
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 400,
+      "value": "Open the file"
+    },
+    "animation": {
+      "propertyID": 396,
+      "value": "search.svg|||svg-animation-top search-down "
+    },
+    "assistance": {
+      "propertyID": 399,
+      "value": "Click in open."
+    },
+    "timeout": 15
+  },
+  {
+    "tutoID": 12,
+    "stepID": 237,
+    "step": 26,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/78d8c701-031b-4fbd-9ac8-918beb6a34af",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 259,
+        "region": {
+          "minimumX": 813,
+          "maximumX": 897,
+          "minimumY": 536,
+          "maximumY": 561,
+          "regionID": 248
+        },
+        "type": 0,
+        "step": 237,
+        "nextStep": 238,
+        "originStep": 236,
+        "nextStepNumber": 29
+      }
+    ],
+    "score": 20,
+    "text": {
+      "propertyID": 402,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 401,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 238,
+    "step": 29,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/9466cb56-9b53-4e04-af6c-33277ac545ac",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 260,
+        "region": {
+          "minimumX": 697,
+          "maximumX": 717,
+          "minimumY": 337,
+          "maximumY": 357,
+          "regionID": 249
+        },
+        "type": 1,
+        "step": 238,
+        "nextStep": 239,
+        "originStep": 237,
+        "nextStepNumber": 30
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 407,
+      "value": "The sheets has automatically been added to the canvas and here we can see our cross-database join. We are using flat files so you can follow along. CROSS DATABASE JOINS ARE EXTREMELY POWERFUL. Now, in this grid view, we can do some basic metadata management. We can change ROW ID from a number to a string just by clicking the icon."
+    },
+    "animation": {
+      "propertyID": 405,
+      "value": "target.svg|||svg-animation-right target- "
+    },
+    "assistance": {
+      "propertyID": 406,
+      "value": "Click in the # above ROW ID"
+    },
+    "timeout": 60
+  },
+  {
+    "tutoID": 12,
+    "stepID": 239,
+    "step": 30,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/7813e77c-b1b9-47d3-ba7d-b39b11e84e41",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 261,
+        "region": {
+          "minimumX": 697,
+          "maximumX": 727,
+          "minimumY": 340,
+          "maximumY": 361,
+          "regionID": 250
+        },
+        "type": 0,
+        "step": 239,
+        "nextStep": 240,
+        "originStep": 238,
+        "nextStepNumber": 31
+      }
+    ],
+    "score": 20,
+    "text": {
+      "propertyID": 409,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 408,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 240,
+    "step": 31,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/d5311d96-dbb0-40eb-9dc0-e729948becba",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 262,
+        "region": {
+          "minimumX": 704,
+          "maximumX": 859,
+          "minimumY": 456,
+          "maximumY": 478,
+          "regionID": 251
+        },
+        "type": 1,
+        "step": 240,
+        "nextStep": 241,
+        "originStep": 239,
+        "nextStepNumber": 33
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 412,
+      "value": "Now click in String."
+    },
+    "animation": {
+      "propertyID": 410,
+      "value": "business.svg|||svg-animation-search business-top "
+    },
+    "assistance": {
+      "propertyID": 411,
+      "value": "Now click in String"
+    },
+    "timeout": 15
+  },
+  {
+    "tutoID": 12,
+    "stepID": 241,
+    "step": 33,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/d1482b5c-bf48-4151-a0a8-5357750fe705",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 263,
+        "region": {
+          "minimumX": 704,
+          "maximumX": 856,
+          "minimumY": 453,
+          "maximumY": 477,
+          "regionID": 252
+        },
+        "type": 0,
+        "step": 241,
+        "nextStep": 242,
+        "originStep": 240,
+        "nextStepNumber": 34
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 242,
+    "step": 34,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/9b970161-d413-4717-b508-e14127bc07b1",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 264,
+        "region": {
+          "minimumX": 797,
+          "maximumX": 944,
+          "minimumY": 334,
+          "maximumY": 398,
+          "regionID": 253
+        },
+        "type": 1,
+        "step": 242,
+        "nextStep": 243,
+        "originStep": 241,
+        "nextStepNumber": 35
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 417,
+      "value": "The ORDER ID field in this dataset has multiple parts, the distribution center, code, the year, and two aditional codes. If we want to split this field and keep only the distribution center code, it's easy. Click on the dropdown and select custom split."
+    },
+    "animation": {
+      "propertyID": 415,
+      "value": "motivate.svg|||svg-animation-line motivate- "
+    },
+    "assistance": {
+      "propertyID": 416,
+      "value": "Click on the dropdown and select custom split."
+    },
+    "timeout": 40
+  },
+  {
+    "tutoID": 12,
+    "stepID": 243,
+    "step": 35,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/d0b2142b-245a-4bea-8fb3-2d6e0668dd59",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 265,
+        "region": {
+          "minimumX": 797,
+          "maximumX": 947,
+          "minimumY": 337,
+          "maximumY": 397,
+          "regionID": 254
+        },
+        "type": 0,
+        "step": 243,
+        "nextStep": 244,
+        "originStep": 242,
+        "nextStepNumber": 36
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 414,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 413,
+      "value": ""
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 244,
+    "step": 36,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/fe8b117a-452b-4dd2-b26c-599fa64e93e0",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 266,
+        "region": {
+          "minimumX": 929,
+          "maximumX": 1112,
+          "minimumY": 526,
+          "maximumY": 549,
+          "regionID": 255
+        },
+        "type": 1,
+        "step": 244,
+        "nextStep": 245,
+        "originStep": 243,
+        "nextStepNumber": 37
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 420,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 418,
+      "value": "target.svg|||svg-animation-right target- "
+    },
+    "assistance": {
+      "propertyID": 419,
+      "value": "Select custom split."
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 245,
+    "step": 37,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/6321d673-7944-4e46-a690-19fff54bc86a",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 267,
+        "region": {
+          "minimumX": 928,
+          "maximumX": 1112,
+          "minimumY": 524,
+          "maximumY": 546,
+          "regionID": 256
+        },
+        "type": 0,
+        "step": 245,
+        "nextStep": 246,
+        "originStep": 244,
+        "nextStepNumber": 38
+      }
+    ],
+    "score": 20,
+    "text": {
+      "propertyID": 422,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 421,
+      "value": ""
+    },
+    "timeout": -1
+  },
+  {
+    "tutoID": 12,
+    "stepID": 246,
+    "step": 38,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/14c1c433-f17a-40e2-807d-bcd72511a820",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 268,
+        "region": {
+          "minimumX": 674,
+          "maximumX": 744,
+          "minimumY": 387,
+          "maximumY": 404,
+          "regionID": 257
+        },
+        "type": 1,
+        "step": 246,
+        "nextStep": 247,
+        "originStep": 245,
+        "nextStepNumber": 39
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 427,
+      "value": "We'll split on a hyphen, and just keep the first column."
+    },
+    "animation": {
+      "propertyID": 425,
+      "value": "target.svg|||svg-animation-top target- "
+    },
+    "assistance": {
+      "propertyID": 426,
+      "value": "Click ok"
+    },
+    "timeout": 30
+  },
+  {
+    "tutoID": 12,
+    "stepID": 247,
+    "step": 39,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/48d0df3c-ae27-4e3c-b932-2a406479a843",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 269,
+        "region": {
+          "minimumX": 673,
+          "maximumX": 745,
+          "minimumY": 387,
+          "maximumY": 406,
+          "regionID": 258
+        },
+        "type": 0,
+        "step": 247,
+        "nextStep": 248,
+        "originStep": 246,
+        "nextStepNumber": 40
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 429,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 428,
+      "value": ""
+    },
+    "timeout": 20
+  },
+  {
+    "tutoID": 12,
+    "stepID": 248,
+    "step": 40,
+    "image": {
+      "propertyID": 0,
+      "source": "https://pis2018blobaccount.blob.core.windows.net/images/135582c0-393b-4fa7-884a-62cbed4a5e66",
+      "slug": null,
+      "description": null,
+      "width": 1366,
+      "heigth": 705
+    },
+    "events": [
+      {
+        "eventID": 270,
+        "region": null,
+        "type": 0,
+        "step": 248,
+        "nextStep": null,
+        "originStep": 247,
+        "nextStepNumber": -1
+      }
+    ],
+    "score": 0,
+    "text": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "animation": {
+      "propertyID": 0,
+      "value": null
+    },
+    "assistance": {
+      "propertyID": 0,
+      "value": ""
+    },
+    "timeout": -1
+  }
+]

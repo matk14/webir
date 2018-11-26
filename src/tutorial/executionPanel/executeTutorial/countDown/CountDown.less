@@ -1,0 +1,33 @@
+@import "../../../../less/uikit.master.less";
+
+
+.tm-countdown {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 99;
+    #uk-library > .transition(all 1s);
+    #uk-library > .translate(-50%, -50%);
+    animation: blinker 1s linear infinite;
+
+    h2{
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 150px !important;
+        color: #355c80;
+        }
+      
+    @keyframes blinker {
+        0% {
+            #uk-library > .transform(translate(-50%,-50%) scale(4));
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            #uk-library > .transform(translate(-50%,-50%) scale(0));
+        }
+    }
+}
