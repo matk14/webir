@@ -28,7 +28,7 @@ class Products extends Component {
 }
 
 Products.propTypes = {
-    categoriesList: PropTypes.array
+    title: PropTypes.string
 };
 
 export default Products;
