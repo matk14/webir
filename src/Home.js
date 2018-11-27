@@ -9,13 +9,13 @@ class Home extends Component {
                 <section className="tm-fullscreen-a">
                     <div className="uk-panel mod-slider">
 
-                        <div uk-slideshow="autoplay: true; animation: push; ratio: 2000:582; min-height: 300; max-height: 582">
+                        <div uk-slideshow="autoplay: true; animation: push; ratio: 2000:582; min-height: 300; max-height: 700">
 
                             <div className="uk-position-relative uk-visible-toggle uk-light">
 
                                 <ul className="uk-slideshow-items">
                                     <li>
-                                        <div className="uk-background-fixed uk-background-center-center uk-background-cover" style={{backgroundImage: "url('slider.jpg')" }}></div>
+                                        <div className="uk-background-fixed uk-background-center-center uk-background-cover" style={{ backgroundImage: "url('slider.jpg')" }}></div>
 
                                         <div className="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom uk-flex uk-flex-middle uk-flex-center">
                                             <h1>Servicio de recomendaciones de comidas</h1>

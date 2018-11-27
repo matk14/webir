@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return <Router>
         <div className="tm-page">
-          
+
         <div className="tm-block-header" data-uk-sticky="show-on-up: true; top:-175; animation: uk-animation-slide-top">
           <div className="uk-navbar-container">
             <div className="uk-container">
@@ -53,10 +53,10 @@ class App extends Component {
           </div>
 
         </div>
-        
+
         <Route path="/tutorial" component={AppTutorial} />
         <Route exact path="/" component={Home} />
-          
+
         <div id="block-footer" className="uk-section tm-block-footer">
           <div className="uk-container">
             <div className="tm-section-wrapper">
