@@ -54,7 +54,7 @@ class App extends Component {
 
         </div>
 
-        <Route path="/tutorial" component={AppTutorial} />
+        <Route path="/tutorial" component={} />
         <Route exact path="/" component={Home} />
 
         <div id="block-footer" className="uk-section tm-block-footer">
