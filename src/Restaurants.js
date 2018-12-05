@@ -8,11 +8,41 @@ class Restaurants extends Component {
         super(props);
         this.state = {
             loaded: false,
-            restaurants: null
+            restaurants: null,
+            products: null,
+            title: "",
+            item: null
         };
+        this.getProducts = this.getProducts.bind(this);
+    }
+
+    handleOnClick(item) {
+        this.setState({
+            item: item,
+            title: item.name,
+            restaurants: null
+        });
+        setTimeout(() =>
+            this.getProducts(),
+        500);
+    }
+
+    getProducts() {
+        if (this.props.type === "glovo") {
+            fetch(API + "/products?glovo=" + this.state.item.url)
+                .then(response => response.json())
+                .then(response => this.setState({ products: response, restaurants: [] }));
+        } else {
+            fetch(API + "/products?pedidosya=" + this.state.item.url)
+                .then(response => response.json())
+                .then(response => this.setState({ products: response, restaurants: [] }));
+        }
     }
 
     componentDidMount() {
+        this.setState({
+            title: this.props.title
+        });
         if (this.props.type === "glovo") {
             fetch(API + "/glovo/")
                 .then(response => response.json())
@@ -28,14 +58,14 @@ class Restaurants extends Component {
 
         return (
             <div className="uk-panel uk-container tm-block-top-a">
-                <h2 className="mod-panel-title">{this.props.title}</h2>
+                <h2 className="mod-panel-title">{this.state.title}</h2>
                 <div className="uk-child-width-1-2@s uk-child-width-1-4@m uk-flex uk-flex-center uk-flex-middle uk-text-center" data-uk-scrollspy="target: > div; cls:uk-animation-slide-right; delay: 250" data-uk-grid>
                 {
                     this.state.restaurants ?
                     this.state.restaurants.map((item, index) =>
                         <div key={index}>
                             <div className="uk-card uk-card-default uk-card-body">
-                                <div><a href="/products">{item.name}</a></div>
+                                <div><a onClick={this.handleOnClick.bind(this, item)}>{item.name}</a></div>
                             </div>
                         </div>
                     )
@@ -43,6 +73,21 @@ class Restaurants extends Component {
                         <div uk-spinner="ratio: 3"></div>
                     </div>
                 }
+                </div>
+
+                <div className="uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center uk-grid-match" data-uk-scrollspy="target: > div; cls:uk-animation-slide-right; delay: 250" data-uk-grid>
+                    {
+                        this.state.products && this.state.products.map((item, index) =>
+                            <div className="uk-flex uk-flex-middle" key={index}>
+                                <div className="uk-card uk-card-default uk-card-body">
+                                    <div>{item.name}</div>
+                                        <div>
+                                            <div><strong>{"$ " + item.precio}</strong></div>
+                                        </div>
+                                </div>
+                            </div>
+                        )
+                    }
                 </div>
             </div>
         );
