@@ -1,11 +1,22 @@
 import React, { Component } from "react";
 import Home from "./Home";
-import Products from "./Products";
 import Restaurants from "./Restaurants";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.less";
+import Recomendaciones from "./Recomendaciones";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      recomendacionesGlovo: "",
+      recomendacionesPedidos: "",
+      restaurant: "",
+      urlGlovo: "",
+      urlPedidos: ""
+    };
+  }
+
   render() {
     return <Router>
         <div className="tm-page">
@@ -49,10 +60,9 @@ class App extends Component {
           </div>
 
           <Route exact path="/" component={Home} />
-          <Route exact path="/products" component={Products} />
-          <Route exact path="/pedidos-ya" component={() => <Restaurants title={"Pedidos Ya"} />} />
-          <Route exact path="/glovo" component={() => <Restaurants title={"Glovo"} />} />
-          <Route exact path="/recomendaciones" component={() => <Restaurants title={"Recomendaciones"} />} />
+          <Route exact path="/pedidos-ya" component={() => <Restaurants type={"pedidos"} title={"Pedidos Ya"} />} />
+          <Route exact path="/glovo" component={() => <Restaurants type={"glovo"} title={"Glovo"} />} />
+          <Route exact path="/recomendaciones" component={() => <Recomendaciones recomendaciones={this.onClick} title={"Recomendaciones"} />} />
 
           <div id="block-footer" className="uk-section tm-block-footer">
             <div className="uk-container">
